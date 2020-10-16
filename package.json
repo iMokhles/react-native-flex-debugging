@@ -1,7 +1,7 @@
 {
   "name": "react-native-flex-debugging",
   "title": "React Native Flex Debugging",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "React-Native a set of in-app debugging and exploration tools for (iOS)",
   "main": "index.js",
   "files": [
