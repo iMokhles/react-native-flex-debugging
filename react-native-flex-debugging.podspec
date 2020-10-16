@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/github_account/react-native-flex-debugging.git", :tag => "#{s.version}" }
 
-  s.source_files = "ios/**/*.{h,c,m,swift}"
+  s.source_files = "ios/**/*.{h,c,m,mm,swift}"
   s.requires_arc = true
 
   s.dependency "React"
   # ...
-  s.dependency 'FLEX', '4.1.1'
+#   s.dependency 'FLEX', '4.1.1'
 end
 
