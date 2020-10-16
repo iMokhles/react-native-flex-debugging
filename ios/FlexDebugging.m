@@ -7,17 +7,17 @@ RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(showExplorer)
 {
-    [[FLEXManager sharedManager] showExplorer];
+    [[IMLEXManager sharedManager] showExplorer];
 }
 
 RCT_EXPORT_METHOD(hideExplorer)
 {
-    [[FLEXManager sharedManager] hideExplorer];
+    [[IMLEXManager sharedManager] hideExplorer];
 }
 
 RCT_EXPORT_METHOD(toggleExplorer)
 {
-    [[FLEXManager sharedManager] toggleExplorer];
+    [[IMLEXManager sharedManager] toggleExplorer];
 }
 
 @end
