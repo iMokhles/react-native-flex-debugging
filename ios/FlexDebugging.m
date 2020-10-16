@@ -1,5 +1,5 @@
 #import "FlexDebugging.h"
-#import <FLEX/FLEXManager.h>
+#import "FLEX/IMLEXManager.h"
 
 @implementation FlexDebugging
 
